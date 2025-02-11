@@ -1,0 +1,5 @@
+#ddev-generated
+services:
+  db:
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-udb", "-pdb"]
