@@ -2,6 +2,10 @@
 hooks:
   post-start:
     - exec: >
+        if [ ! -f .env ]; then
+          cp .env.example .env;
+        fi
+    - exec: >
         if [ "$DATABASE" = "sqlite" ]; then
           if [ ! -f database/database.sqlite ]; then
             touch database/database.sqlite;
