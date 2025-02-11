@@ -1,4 +1,4 @@
-[![tests](https://github.com/ddev/ddev-laravel-automation/actions/workflows/tests.yml/badge.svg)](https://github.com/ddev/ddev-laravel-automation/actions/workflows/tests.yml) ![project is maintained](https://img.shields.io/maintenance/yes/2025.svg)
+[![tests](https://github.com/fouteox/ddev-laravel-automation/actions/workflows/tests.yml/badge.svg)](https://github.com/fouteox/ddev-laravel-automation/actions/workflows/tests.yml) ![project is maintained](https://img.shields.io/maintenance/yes/2025.svg)
 
 # DDEV add-on template <!-- omit in toc -->
 
@@ -14,8 +14,6 @@ This repository is a template for providing [DDEV](https://ddev.readthedocs.io) 
 In DDEV, add-ons can be installed from the command line using the `ddev add-on get` command, for example, `ddev add-on get ddev/ddev-redis` or `ddev add-on get ddev/ddev-solr`.
 
 This repository is a quick way to get started. You can create a new repo from this one by clicking the template button in the top right corner of the page.
-
-![template button](images/template-button.png)
 
 ## Components of the repository
 
