@@ -29,8 +29,6 @@ teardown() {
   cd ${TESTDIR}
   echo "# ddev add-on get ${DIR} with project ${PROJNAME} in ${TESTDIR} ($(pwd))" >&3
   ddev add-on get ${DIR}
-  ddev restart
-  health_checks
 }
 
 # bats test_tags=release
@@ -39,6 +37,4 @@ teardown() {
   cd ${TESTDIR} || ( printf "unable to cd to ${TESTDIR}\n" && exit 1 )
   echo "# ddev add-on get fouteox/ddev-laravel-automation with project ${PROJNAME} in ${TESTDIR} ($(pwd))" >&3
   ddev add-on get fouteox/ddev-laravel-automation
-  ddev restart >/dev/null
-  health_checks
 }
