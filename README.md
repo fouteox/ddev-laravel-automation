@@ -1,4 +1,4 @@
-[![tests](https://github.com/fouteox/ddev-laravel-automation/actions/workflows/tests.yml/badge.svg)](https://github.com/fouteox/ddev-laravel-automation/actions/workflows/tests.yml) ![project is maintained](https://img.shields.io/maintenance/yes/2025.svg)
+![project is maintained](https://img.shields.io/maintenance/yes/2025.svg)
 
 # DDEV add-on template <!-- omit in toc -->
 
