@@ -9,5 +9,5 @@ project_files:
   - config.laravel-automation.yaml
 
 post_install_actions:
-  - chmod +x ${DDEV_APPROOT}/.ddev/node/setup.sh
-  - ${DDEV_APPROOT}/.ddev/node/setup.sh
+  - chmod +x ${DDEV_APPROOT}/.ddev/laravel-automation/setup.sh
+  - ${DDEV_APPROOT}/.ddev/laravel-automation/setup.sh
